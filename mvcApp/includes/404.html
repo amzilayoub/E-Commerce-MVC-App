@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="/works/mvcApp/" />
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- GOOGLE FONT -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <!-- FONT ICON -->
+        <link rel="stylesheet" href="css/line-awesome.min.css">
+        <title>Ooops !</title>
+        <!-- HTML 5 SHIV -->
+        <script src="js/html5shiv.min.js"></script>
+        <!-- RESPOND -->
+        <script src="js/respond.min.js"></script>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+				font-family: 'Raleway', sans-serif;
+			}
+			.mainOops{
+				position: absolute;
+				text-align: center;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+			}
+			
+			.mainOops .oops{
+				height: 300px;
+				width: 300px;
+				line-height: 300px;
+				border: 7px solid;
+				color: #fba100;
+				border-radius: 50%;
+				font-size: 100px;
+				font-weight: bold;
+				margin-bottom: 10px;
+			}
+			.mainOops .notFound{
+				font-size: 30px;
+				color: #25252C
+			}
+			
+			.mainOops a{
+				text-decoration: none;
+				border: 2px solid transparent;
+				display: inline-block;
+				padding: 10px 40px;
+				margin-top: 30px;
+				font-size: 20px;
+				background-color: #fba100;
+				color: white;
+				transition: all .7s ease-in-out
+			}
+			
+			.mainOops a:hover{
+				color: #fba100;
+				background-color: transparent;
+				border: 2px solid #fba100;
+				
+			}
+			
+		</style>
+    </head>
+    <body>
+		<div class="mainOops">
+			<div class="oops">Oops</div>
+			<div class="notFound">404 Page Not Found</div>
+			<a href="">Home</a>
+		</div>
+        <!-- jQuery first, then Popper.js -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/plugin.js"></script>
+        <script src="js/ajax.js"></script>
+    </body>
+</html>
