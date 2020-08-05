@@ -5,11 +5,11 @@ class database{
 	public static $con;
 
 	protected static $dbInfo = [
-		'dbType'	=> 'mysql',
-		'host'  	=> 'sql101.hostkda.com',
-		'dbname'	=> 'hkda_23446369_ecomm',
-		'user'  	=> 'hkda_23446369',
-		'pass'  	=> 'RANI9ASH',
+		'dbType'	=> '',
+		'host'  	=> '',
+		'dbname'	=> '',
+		'user'  	=> '',
+		'pass'  	=> '',
 	];
 
 	public static function connect(){
